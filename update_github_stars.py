@@ -22,7 +22,9 @@ def get_github_stars(extension_url):
     github_url = re.sub(r'\.git$', '', github_url)
     
     # Authenticate to get 5000 requests per hour
-    Token = '' # Add your github token here
+    # Add your github token here
+    import os
+    Token = os.environ.get('GITHUB_TOKEN')
     headers = {}
     if Token:
         headers = {'Authorization': 'token ' + Token}

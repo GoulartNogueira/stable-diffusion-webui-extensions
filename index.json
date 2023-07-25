@@ -1,10 +1,9 @@
 {
-    "about": "This file is used by Web UI to show the index of available extensions. It's in JSON format and is not meant to be viewed by users directly. If you edit the file you must ensure that it's still a valid JSON.",
     "tags": {
         "script": "a general extension that adds functionality",
         "localization": "a localization extension that translates web ui into another language",
         "tab": "adds a tab",
-        "dropdown": "adds a dropbear in the ui",
+        "dropdown": "adds a dropdown in the ui",
         "ads": "contains ads",
         "installed": "an extension that is already installed",
         "training": "new type of training / assists with training.",
@@ -20,6 +19,27 @@
         "extras": "adds new functionality to the extras tab."
     },
     "extensions": [
+        {
+            "name": "Agent Scheduler",
+            "url": "https://github.com/ArtVentureX/sd-webui-agent-scheduler.git",
+            "description": "Queue task and task history",
+            "added": "2023-06-23",
+            "tags": [
+                "tab"
+            ],
+            "stars": 272
+        },
+        {
+            "name": "TemporalKit",
+            "url": "https://github.com/CiaraStrawberry/TemporalKit",
+            "description": "An all in one solution for adding Temporal Stability to a Stable Diffusion Render via an automatic1111 extension",
+            "added": "2023-06-22",
+            "tags": [
+                "extras",
+                "animation"
+            ],
+            "stars": 1336
+        },
         {
             "name": "ua_UA Localization",
             "url": "https://github.com/razorback456/webui-localization-ua_UA",
@@ -38,7 +58,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 13
+            "stars": 27
         },
         {
             "name": "Kandinsky",
@@ -49,7 +69,7 @@
                 "script",
                 "editing"
             ],
-            "stars": 63
+            "stars": 89
         },
         {
             "name": "Txt/Img to 3D Model",
@@ -59,7 +79,7 @@
             "tags": [
                 "tab"
             ],
-            "stars": 129
+            "stars": 176
         },
         {
             "name": "sd-webui-openpose-editor",
@@ -69,7 +89,7 @@
             "tags": [
                 "editing"
             ],
-            "stars": 94
+            "stars": 181
         },
         {
             "name": "sd-webui-segment-anything",
@@ -80,7 +100,7 @@
                 "script",
                 "dropdown"
             ],
-            "stars": 1914
+            "stars": 2203
         },
         {
             "name": "Stable Diffusion AWS Extension",
@@ -92,7 +112,7 @@
                 "training",
                 "online"
             ],
-            "stars": 42
+            "stars": 65
         },
         {
             "name": "Aesthetic Gradients",
@@ -104,7 +124,7 @@
                 "dropdown",
                 "training"
             ],
-            "stars": 325
+            "stars": 341
         },
         {
             "name": "Dreambooth",
@@ -115,7 +135,7 @@
                 "tab",
                 "training"
             ],
-            "stars": 1428
+            "stars": 1519
         },
         {
             "name": "training-picker",
@@ -126,7 +146,7 @@
                 "tab",
                 "training"
             ],
-            "stars": 88
+            "stars": 96
         },
         {
             "name": "Dataset Tag Editor",
@@ -137,7 +157,7 @@
                 "tab",
                 "training"
             ],
-            "stars": 404
+            "stars": 441
         },
         {
             "name": "DreamArtist",
@@ -147,18 +167,7 @@
             "tags": [
                 "training"
             ],
-            "stars": 590
-        },
-        {
-            "name": "WD 1.4 Tagger",
-            "url": "https://github.com/toriato/stable-diffusion-webui-wd14-tagger.git",
-            "description": "Interrogates single or multiple image files using various alternative models, similar to deepdanbooru interrogate.",
-            "added": "2022-11-20",
-            "tags": [
-                "tab",
-                "training"
-            ],
-            "stars": 773
+            "stars": 613
         },
         {
             "name": "Hypernetwork-Monkeypatch-Extension",
@@ -169,7 +178,7 @@
                 "tab",
                 "training"
             ],
-            "stars": 112
+            "stars": 115
         },
         {
             "name": "Custom Diffusion",
@@ -180,7 +189,7 @@
                 "tab",
                 "training"
             ],
-            "stars": 55
+            "stars": 59
         },
         {
             "name": "Smart Process",
@@ -192,7 +201,7 @@
                 "editing",
                 "training"
             ],
-            "stars": 134
+            "stars": 143
         },
         {
             "name": "Embeddings editor",
@@ -203,7 +212,7 @@
                 "tab",
                 "models"
             ],
-            "stars": 45
+            "stars": 47
         },
         {
             "name": "embedding-inspector",
@@ -214,7 +223,7 @@
                 "tab",
                 "models"
             ],
-            "stars": 133
+            "stars": 143
         },
         {
             "name": "Merge Board",
@@ -225,7 +234,7 @@
                 "tab",
                 "models"
             ],
-            "stars": 52
+            "stars": 59
         },
         {
             "name": "Model Converter",
@@ -236,7 +245,7 @@
                 "tab",
                 "models"
             ],
-            "stars": 168
+            "stars": 208
         },
         {
             "name": "Kohya-ss Additional Networks",
@@ -246,7 +255,7 @@
             "tags": [
                 "models"
             ],
-            "stars": 1222
+            "stars": 1346
         },
         {
             "name": "Merge Block Weighted",
@@ -257,7 +266,7 @@
                 "tab",
                 "models"
             ],
-            "stars": 250
+            "stars": 268
         },
         {
             "name": "Embedding Merge",
@@ -269,7 +278,7 @@
                 "models",
                 "manipulations"
             ],
-            "stars": 42
+            "stars": 55
         },
         {
             "name": "SuperMerger",
@@ -280,7 +289,7 @@
                 "tab",
                 "models"
             ],
-            "stars": 381
+            "stars": 442
         },
         {
             "name": "LoRA Block Weight",
@@ -290,7 +299,7 @@
             "tags": [
                 "models"
             ],
-            "stars": 635
+            "stars": 729
         },
         {
             "name": "Image browser",
@@ -301,7 +310,7 @@
                 "tab",
                 "UI related"
             ],
-            "stars": 343
+            "stars": 397
         },
         {
             "name": "Infinite image browsing",
@@ -312,7 +321,7 @@
                 "tab",
                 "UI related"
             ],
-            "stars": 261
+            "stars": 353
         },
         {
             "name": "Inspiration",
@@ -323,7 +332,7 @@
                 "tab",
                 "UI related"
             ],
-            "stars": 93
+            "stars": 99
         },
         {
             "name": "Artists to study",
@@ -334,7 +343,7 @@
                 "tab",
                 "UI related"
             ],
-            "stars": 60
+            "stars": 66
         },
         {
             "name": "Prompt Gallery",
@@ -345,7 +354,7 @@
                 "tab",
                 "UI related"
             ],
-            "stars": 104
+            "stars": 115
         },
         {
             "name": "Infinity Grid Generator",
@@ -355,7 +364,7 @@
             "tags": [
                 "UI related"
             ],
-            "stars": 99
+            "stars": 117
         },
         {
             "name": "Config-Presets",
@@ -365,7 +374,7 @@
             "tags": [
                 "UI related"
             ],
-            "stars": 121
+            "stars": 150
         },
         {
             "name": "Preset Utilities",
@@ -375,7 +384,7 @@
             "tags": [
                 "UI related"
             ],
-            "stars": 159
+            "stars": 176
         },
         {
             "name": "openOutpaint extension",
@@ -387,7 +396,7 @@
                 "UI related",
                 "editing"
             ],
-            "stars": 288
+            "stars": 312
         },
         {
             "name": "quick-css",
@@ -398,7 +407,7 @@
                 "tab",
                 "UI related"
             ],
-            "stars": 46
+            "stars": 51
         },
         {
             "name": "Aspect Ratio selector",
@@ -408,7 +417,7 @@
             "tags": [
                 "UI related"
             ],
-            "stars": 105
+            "stars": 118
         },
         {
             "name": "Nevysha's Cozy Nest",
@@ -418,7 +427,7 @@
             "tags": [
                 "UI related"
             ],
-            "stars": 276
+            "stars": 317
         },
         {
             "name": "Catppuccin Theme",
@@ -428,17 +437,7 @@
             "tags": [
                 "UI related"
             ],
-            "stars": 186
-        },
-        {
-            "name": "Kitchen Theme",
-            "url": "https://github.com/canisminor1990/sd-web-ui-kitchen-theme.git",
-            "description": "Custom Theme.",
-            "added": "2023-02-28",
-            "tags": [
-                "UI related"
-            ],
-            "stars": 427
+            "stars": 206
         },
         {
             "name": "Bilingual Localization",
@@ -448,7 +447,7 @@
             "tags": [
                 "UI related"
             ],
-            "stars": 525
+            "stars": 597
         },
         {
             "name": "Dynamic Prompts",
@@ -458,7 +457,7 @@
             "tags": [
                 "prompting"
             ],
-            "stars": 1102
+            "stars": 1258
         },
         {
             "name": "Unprompted",
@@ -469,7 +468,7 @@
                 "prompting",
                 "ads"
             ],
-            "stars": 576
+            "stars": 605
         },
         {
             "name": "StylePile",
@@ -479,7 +478,7 @@
             "tags": [
                 "prompting"
             ],
-            "stars": 477
+            "stars": 501
         },
         {
             "name": "Booru tag autocompletion",
@@ -489,7 +488,7 @@
             "tags": [
                 "prompting"
             ],
-            "stars": 1700
+            "stars": 1846
         },
         {
             "name": "novelai-2-local-prompt",
@@ -499,7 +498,7 @@
             "tags": [
                 "prompting"
             ],
-            "stars": 57
+            "stars": 61
         },
         {
             "name": "tokenizer",
@@ -510,7 +509,7 @@
                 "tab",
                 "prompting"
             ],
-            "stars": 97
+            "stars": 103
         },
         {
             "name": "Randomize",
@@ -520,7 +519,7 @@
             "tags": [
                 "prompting"
             ],
-            "stars": 16
+            "stars": 17
         },
         {
             "name": "conditioning-highres-fix",
@@ -530,7 +529,7 @@
             "tags": [
                 "prompting"
             ],
-            "stars": 30
+            "stars": 35
         },
         {
             "name": "model-keyword",
@@ -540,7 +539,7 @@
             "tags": [
                 "prompting"
             ],
-            "stars": 119
+            "stars": 140
         },
         {
             "name": "Prompt Generator",
@@ -551,7 +550,7 @@
                 "tab",
                 "prompting"
             ],
-            "stars": 156
+            "stars": 173
         },
         {
             "name": "Promptgen",
@@ -562,7 +561,7 @@
                 "tab",
                 "prompting"
             ],
-            "stars": 265
+            "stars": 306
         },
         {
             "name": "text2prompt",
@@ -573,7 +572,7 @@
                 "tab",
                 "prompting"
             ],
-            "stars": 130
+            "stars": 137
         },
         {
             "name": "Prompt Translator",
@@ -585,7 +584,7 @@
                 "prompting",
                 "online"
             ],
-            "stars": 190
+            "stars": 211
         },
         {
             "name": "Deforum",
@@ -596,7 +595,7 @@
                 "tab",
                 "animation"
             ],
-            "stars": 1712
+            "stars": 1884
         },
         {
             "name": "Animator",
@@ -607,7 +606,7 @@
                 "tab",
                 "animation"
             ],
-            "stars": 59
+            "stars": 60
         },
         {
             "name": "gif2gif",
@@ -617,7 +616,7 @@
             "tags": [
                 "animation"
             ],
-            "stars": 204
+            "stars": 210
         },
         {
             "name": "Video Loopback",
@@ -627,7 +626,7 @@
             "tags": [
                 "animation"
             ],
-            "stars": 295
+            "stars": 302
         },
         {
             "name": "seed travel",
@@ -637,7 +636,7 @@
             "tags": [
                 "animation"
             ],
-            "stars": 259
+            "stars": 273
         },
         {
             "name": "shift-attention",
@@ -647,7 +646,7 @@
             "tags": [
                 "animation"
             ],
-            "stars": 128
+            "stars": 142
         },
         {
             "name": "prompt travel",
@@ -657,7 +656,7 @@
             "tags": [
                 "animation"
             ],
-            "stars": 146
+            "stars": 152
         },
         {
             "name": "Steps Animation",
@@ -667,7 +666,7 @@
             "tags": [
                 "animation"
             ],
-            "stars": 87
+            "stars": 102
         },
         {
             "name": "auto-sd-paint-ext",
@@ -677,17 +676,7 @@
             "tags": [
                 "editing"
             ],
-            "stars": 368
-        },
-        {
-            "name": "Detection Detailer",
-            "url": "https://github.com/dustysys/ddetailer.git",
-            "description": "An object detection and auto-mask extension for Stable Diffusion web UI.",
-            "added": "2022-11-09",
-            "tags": [
-                "editing"
-            ],
-            "stars": 282
+            "stars": 385
         },
         {
             "name": "Batch Face Swap",
@@ -697,7 +686,7 @@
             "tags": [
                 "editing"
             ],
-            "stars": 224
+            "stars": 262
         },
         {
             "name": "Depth Maps",
@@ -707,7 +696,7 @@
             "tags": [
                 "editing"
             ],
-            "stars": 1018
+            "stars": 1126
         },
         {
             "name": "multi-subject-render",
@@ -718,7 +707,7 @@
                 "editing",
                 "manipulations"
             ],
-            "stars": 320
+            "stars": 329
         },
         {
             "name": "depthmap2mask",
@@ -729,7 +718,7 @@
                 "editing",
                 "manipulations"
             ],
-            "stars": 304
+            "stars": 314
         },
         {
             "name": "ABG_extension",
@@ -739,7 +728,7 @@
             "tags": [
                 "editing"
             ],
-            "stars": 174
+            "stars": 182
         },
         {
             "name": "Pixel",
@@ -750,7 +739,7 @@
                 "editing",
                 "extras"
             ],
-            "stars": 28
+            "stars": 38
         },
         {
             "name": "Pixelization",
@@ -761,7 +750,7 @@
                 "editing",
                 "extras"
             ],
-            "stars": 385
+            "stars": 413
         },
         {
             "name": "haku-img",
@@ -772,7 +761,7 @@
                 "tab",
                 "editing"
             ],
-            "stars": 114
+            "stars": 132
         },
         {
             "name": "Asymmetric Tiling",
@@ -782,7 +771,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 104
+            "stars": 115
         },
         {
             "name": "Latent Mirroring",
@@ -792,7 +781,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 91
+            "stars": 97
         },
         {
             "name": "Sonar",
@@ -802,7 +791,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 76
+            "stars": 84
         },
         {
             "name": "Depth Image I/O",
@@ -812,7 +801,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 68
+            "stars": 71
         },
         {
             "name": "Ultimate SD Upscale",
@@ -822,7 +811,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 814
+            "stars": 916
         },
         {
             "name": "Prompt Fusion",
@@ -832,7 +821,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 151
+            "stars": 177
         },
         {
             "name": "Neutral Prompt",
@@ -842,7 +831,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 55
+            "stars": 89
         },
         {
             "name": "Dynamic Thresholding",
@@ -852,7 +841,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 524
+            "stars": 605
         },
         {
             "name": "anti-burn",
@@ -862,7 +851,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 112
+            "stars": 126
         },
         {
             "name": "sd-webui-controlnet",
@@ -872,7 +861,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 10425
+            "stars": 11495
         },
         {
             "name": "Latent Couple",
@@ -882,17 +871,17 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 299
+            "stars": 321
         },
         {
             "name": "Composable LoRA",
-            "url": "https://github.com/opparco/stable-diffusion-webui-composable-lora.git",
+            "url": "https://github.com/a2569875/stable-diffusion-webui-composable-lora.git",
             "description": "Enables using AND keyword(composable diffusion) to limit LoRAs to subprompts. Useful when paired with Latent Couple extension.",
             "added": "2023-02-25",
             "tags": [
                 "manipulations"
             ],
-            "stars": 366
+            "stars": 96
         },
         {
             "name": "Auto TLS-HTTPS",
@@ -902,7 +891,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 41
+            "stars": 44
         },
         {
             "name": "booru2prompt",
@@ -913,7 +902,7 @@
                 "tab",
                 "online"
             ],
-            "stars": 41
+            "stars": 44
         },
         {
             "name": "Gelbooru Prompt",
@@ -923,7 +912,7 @@
             "tags": [
                 "online"
             ],
-            "stars": 22
+            "stars": 26
         },
         {
             "name": "e621 Prompt",
@@ -934,7 +923,7 @@
                 "online",
                 "prompting"
             ],
-            "stars": 3
+            "stars": 10
         },
         {
             "name": "NSFW checker",
@@ -944,7 +933,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 54
+            "stars": 62
         },
         {
             "name": "Diffusion Defender",
@@ -954,7 +943,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 20
+            "stars": 21
         },
         {
             "name": "DH Patch",
@@ -974,7 +963,7 @@
             "tags": [
                 "tab"
             ],
-            "stars": 143
+            "stars": 150
         },
         {
             "name": "Save Intermediate Images",
@@ -984,7 +973,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 80
+            "stars": 87
         },
         {
             "name": "Add image number to grid",
@@ -994,7 +983,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 22
+            "stars": 25
         },
         {
             "name": "Multiple Hypernetworks",
@@ -1004,7 +993,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 88
+            "stars": 90
         },
         {
             "name": "System Info",
@@ -1015,7 +1004,7 @@
                 "script",
                 "tab"
             ],
-            "stars": 137
+            "stars": 159
         },
         {
             "name": "OpenPose Editor",
@@ -1025,7 +1014,7 @@
             "tags": [
                 "tab"
             ],
-            "stars": 1303
+            "stars": 1373
         },
         {
             "name": "Stable Horde Worker",
@@ -1036,7 +1025,7 @@
                 "tab",
                 "online"
             ],
-            "stars": 42
+            "stars": 45
         },
         {
             "name": "Stable Horde Client",
@@ -1047,7 +1036,7 @@
                 "tab",
                 "online"
             ],
-            "stars": 62
+            "stars": 66
         },
         {
             "name": "Discord Rich Presence",
@@ -1057,7 +1046,7 @@
             "tags": [
                 "online"
             ],
-            "stars": 14
+            "stars": 15
         },
         {
             "name": "mine-diffusion",
@@ -1065,10 +1054,9 @@
             "description": "This extension converts images into blocks and creates schematics for easy importing into Minecraft using the Litematica mod.",
             "added": "2023-02-11",
             "tags": [
-                "tab",
-                "online"
+                "tab"
             ],
-            "stars": 10
+            "stars": 13
         },
         {
             "name": "Aesthetic Image Scorer",
@@ -1078,7 +1066,7 @@
             "tags": [
                 "query"
             ],
-            "stars": 97
+            "stars": 105
         },
         {
             "name": "Aesthetic Scorer",
@@ -1088,7 +1076,7 @@
             "tags": [
                 "query"
             ],
-            "stars": 45
+            "stars": 47
         },
         {
             "name": "cafe-aesthetic",
@@ -1099,7 +1087,7 @@
                 "tab",
                 "query"
             ],
-            "stars": 23
+            "stars": 25
         },
         {
             "name": "Clip Interrogator",
@@ -1110,7 +1098,7 @@
                 "tab",
                 "query"
             ],
-            "stars": 234
+            "stars": 272
         },
         {
             "name": "Visualize Cross-Attention",
@@ -1121,7 +1109,7 @@
                 "tab",
                 "science"
             ],
-            "stars": 62
+            "stars": 68
         },
         {
             "name": "DAAM",
@@ -1131,7 +1119,7 @@
             "tags": [
                 "science"
             ],
-            "stars": 68
+            "stars": 72
         },
         {
             "name": "Dump U-Net",
@@ -1141,7 +1129,7 @@
             "tags": [
                 "science"
             ],
-            "stars": 64
+            "stars": 66
         },
         {
             "name": "posex",
@@ -1151,7 +1139,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 466
+            "stars": 495
         },
         {
             "name": "LLuL",
@@ -1161,7 +1149,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 600
+            "stars": 644
         },
         {
             "name": "CFG-Schedule-for-Automatic1111-SD",
@@ -1171,7 +1159,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 26
+            "stars": 27
         },
         {
             "name": "ebsynth_utility",
@@ -1182,7 +1170,7 @@
                 "tab",
                 "animation"
             ],
-            "stars": 596
+            "stars": 731
         },
         {
             "name": "VRAM Estimator",
@@ -1192,7 +1180,7 @@
             "tags": [
                 "tab"
             ],
-            "stars": 54
+            "stars": 72
         },
         {
             "name": "TiledDiffusion with Tiled VAE",
@@ -1202,7 +1190,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 2829
+            "stars": 3196
         },
         {
             "name": "3D Model&Pose Loader",
@@ -1212,7 +1200,7 @@
             "tags": [
                 "tab"
             ],
-            "stars": 175
+            "stars": 192
         },
         {
             "name": "Corridor Crawler Outpainting",
@@ -1222,7 +1210,7 @@
             "tags": [
                 "tab"
             ],
-            "stars": 29
+            "stars": 28
         },
         {
             "name": "Panorama Viewer",
@@ -1232,7 +1220,7 @@
             "tags": [
                 "tab"
             ],
-            "stars": 106
+            "stars": 116
         },
         {
             "name": "db-storage1111",
@@ -1242,7 +1230,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 36
+            "stars": 39
         },
         {
             "name": "stable-diffusion-webui-rembg",
@@ -1253,7 +1241,7 @@
                 "script",
                 "extras"
             ],
-            "stars": 498
+            "stars": 582
         },
         {
             "name": "sd-webui-tunnels",
@@ -1264,7 +1252,7 @@
                 "script",
                 "online"
             ],
-            "stars": 62
+            "stars": 65
         },
         {
             "name": "3D Openpose Editor",
@@ -1274,7 +1262,7 @@
             "tags": [
                 "tab"
             ],
-            "stars": 493
+            "stars": 545
         },
         {
             "name": "sd-webui-enable-checker",
@@ -1284,7 +1272,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 36
+            "stars": 38
         },
         {
             "name": "stable-diffusion-webui-state",
@@ -1294,7 +1282,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 122
+            "stars": 143
         },
         {
             "name": "text2video",
@@ -1305,7 +1293,7 @@
                 "tab",
                 "animation"
             ],
-            "stars": 755
+            "stars": 970
         },
         {
             "name": "Aspect Ratio Helper",
@@ -1317,7 +1305,7 @@
                 "dropdown",
                 "UI related"
             ],
-            "stars": 148
+            "stars": 192
         },
         {
             "name": "Canvas Zoom",
@@ -1327,7 +1315,7 @@
             "tags": [
                 "UI related"
             ],
-            "stars": 192
+            "stars": 238
         },
         {
             "name": "Regional Prompter",
@@ -1337,7 +1325,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 611
+            "stars": 720
         },
         {
             "name": "Auto Translate",
@@ -1347,7 +1335,7 @@
             "tags": [
                 "UI related"
             ],
-            "stars": 26
+            "stars": 27
         },
         {
             "name": "Prompt Translator",
@@ -1357,7 +1345,7 @@
             "tags": [
                 "prompting"
             ],
-            "stars": 107
+            "stars": 112
         },
         {
             "name": "Abysz LAB",
@@ -1368,7 +1356,7 @@
                 "tab",
                 "animation"
             ],
-            "stars": 131
+            "stars": 144
         },
         {
             "name": "Negative Prompt Weight",
@@ -1380,7 +1368,7 @@
                 "manipulations",
                 "prompting"
             ],
-            "stars": 71
+            "stars": 79
         },
         {
             "name": "Discord - Dynamic Rich Presence",
@@ -1402,17 +1390,17 @@
                 "extras",
                 "editing"
             ],
-            "stars": 241
+            "stars": 257
         },
         {
             "name": "a1111-sd-webui-lycoris",
             "url": "https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris.git",
-            "description": "Load lycoris: non-conventional rank adapters; in separate networks gallery tab.",
+            "description": "No longer needed for webui >= 1.5.0, Load lycoris: non-conventional rank adapters; in separate networks gallery tab.",
             "added": "2023-04-10",
             "tags": [
                 "script"
             ],
-            "stars": 503
+            "stars": 652
         },
         {
             "name": "sd-canvas-editor",
@@ -1423,7 +1411,7 @@
                 "tab",
                 "online"
             ],
-            "stars": 94
+            "stars": 106
         },
         {
             "name": "Infinite Zoom",
@@ -1434,7 +1422,7 @@
                 "tab",
                 "animation"
             ],
-            "stars": 452
+            "stars": 492
         },
         {
             "name": "Eye Mask",
@@ -1446,7 +1434,7 @@
                 "dropdown",
                 "manipulations"
             ],
-            "stars": 22
+            "stars": 29
         },
         {
             "name": "zh_CN Localization",
@@ -1456,7 +1444,7 @@
             "tags": [
                 "localization"
             ],
-            "stars": 937
+            "stars": 1011
         },
         {
             "name": "zh_TW Localization",
@@ -1466,7 +1454,7 @@
             "tags": [
                 "localization"
             ],
-            "stars": 4
+            "stars": 7
         },
         {
             "name": "ko_KR Localization",
@@ -1476,7 +1464,7 @@
             "tags": [
                 "localization"
             ],
-            "stars": 14
+            "stars": 15
         },
         {
             "name": "th_TH Localization",
@@ -1516,7 +1504,7 @@
             "tags": [
                 "localization"
             ],
-            "stars": 1
+            "stars": 2
         },
         {
             "name": "ja_JP Localization",
@@ -1526,7 +1514,7 @@
             "tags": [
                 "localization"
             ],
-            "stars": 41
+            "stars": 42
         },
         {
             "name": "pt_BR Localization",
@@ -1584,7 +1572,7 @@
             "tags": [
                 "localization"
             ],
-            "stars": 115
+            "stars": 150
         },
         {
             "name": "old localizations",
@@ -1594,7 +1582,7 @@
             "tags": [
                 "localization"
             ],
-            "stars": 15
+            "stars": 16
         },
         {
             "name": "Model Organizer",
@@ -1606,7 +1594,7 @@
                 "UI related",
                 "online"
             ],
-            "stars": 22
+            "stars": 34
         },
         {
             "name": "Model Preset Manager",
@@ -1618,7 +1606,7 @@
                 "prompting",
                 "tab"
             ],
-            "stars": 58
+            "stars": 70
         },
         {
             "name": "Stable Diffusion Webui Civitai Helper",
@@ -1630,7 +1618,7 @@
                 "UI related",
                 "online"
             ],
-            "stars": 1580
+            "stars": 1747
         },
         {
             "name": "SD-CN-Animation",
@@ -1641,7 +1629,7 @@
                 "tab",
                 "animation"
             ],
-            "stars": 587
+            "stars": 642
         },
         {
             "name": "Model toolkit",
@@ -1652,7 +1640,7 @@
                 "tab",
                 "models"
             ],
-            "stars": 327
+            "stars": 365
         },
         {
             "name": "sd-webui-prompt-all-in-one",
@@ -1664,7 +1652,7 @@
                 "prompting",
                 "online"
             ],
-            "stars": 948
+            "stars": 1257
         },
         {
             "name": "sd-model-preview-xd",
@@ -1675,7 +1663,7 @@
                 "tab",
                 "UI related"
             ],
-            "stars": 44
+            "stars": 52
         },
         {
             "name": "!After Detailer",
@@ -1685,7 +1673,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 1047
+            "stars": 1627
         },
         {
             "name": "Weight Gradient",
@@ -1695,7 +1683,7 @@
             "tags": [
                 "prompting"
             ],
-            "stars": 8
+            "stars": 11
         },
         {
             "name": "One Button Prompt",
@@ -1706,21 +1694,20 @@
                 "script",
                 "prompting"
             ],
-            "stars": 186
+            "stars": 318
         },
         {
             "name": "Miaoshouai Assistant",
             "url": "https://github.com/miaoshouai/miaoshouai-assistant.git",
-            "description": "Miaoshouai Assistant allows you to enhance your automatic1111 webui user experience, including updating boot settings, managing and downloading your models, prompts from a single tab.",
+            "description": "Miaoshouai Assistant allows you to enhance your automatic1111 webui user experience, including updating boot settings, freeup vram, managing and downloading your models from civitai.com and liandange.com, generate prompts from chatgpt all through a single tab.",
             "added": "2023-05-18",
             "tags": [
                 "tab",
                 "models",
                 "UI related",
-                "online",
-                "ads"
+                "online"
             ],
-            "stars": 135
+            "stars": 161
         },
         {
             "name": "miniPaint",
@@ -1731,7 +1718,7 @@
                 "tab",
                 "editing"
             ],
-            "stars": 63
+            "stars": 70
         },
         {
             "name": "StableSR",
@@ -1741,7 +1728,7 @@
             "tags": [
                 "manipulations"
             ],
-            "stars": 466
+            "stars": 619
         },
         {
             "name": "Web UI client queue",
@@ -1753,7 +1740,7 @@
                 "UI related",
                 "prompting"
             ],
-            "stars": 32
+            "stars": 38
         },
         {
             "name": "Distributed",
@@ -1763,7 +1750,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 56
+            "stars": 83
         },
         {
             "name": "StableStudio Adapter",
@@ -1773,7 +1760,7 @@
             "tags": [
                 "script"
             ],
-            "stars": 24
+            "stars": 31
         },
         {
             "name": "Quick Tab Switch",
@@ -1784,7 +1771,7 @@
                 "script",
                 "UI related"
             ],
-            "stars": 7
+            "stars": 8
         },
         {
             "name": "Lua",
@@ -1795,7 +1782,7 @@
                 "tab",
                 "science"
             ],
-            "stars": 19
+            "stars": 29
         },
         {
             "name": "Model Downloader",
@@ -1807,7 +1794,7 @@
                 "script",
                 "online"
             ],
-            "stars": 11
+            "stars": 21
         },
         {
             "name": "Styles Editor",
@@ -1819,7 +1806,7 @@
                 "UI related",
                 "prompting"
             ],
-            "stars": 20
+            "stars": 37
         },
         {
             "name": "Clip I/O",
@@ -1831,7 +1818,7 @@
                 "tab",
                 "science"
             ],
-            "stars": 8
+            "stars": 15
         },
         {
             "name": "Inpaint Anything",
@@ -1843,7 +1830,7 @@
                 "editing",
                 "manipulations"
             ],
-            "stars": 251
+            "stars": 391
         },
         {
             "name": "QR Code Generator",
@@ -1854,18 +1841,18 @@
                 "script",
                 "tab"
             ],
-            "stars": 18
+            "stars": 27
         },
         {
             "name": "sd-webui-roop",
             "url": "https://github.com/s0md3v/sd-webui-roop",
             "description": "Enable face swapping with reference image.",
-            "added": "2023-06-18",
+            "added": "2023-06-09",
             "tags": [
                 "editing",
                 "manipulations"
             ],
-            "stars": 300
+            "stars": 1710
         },
         {
             "name": "sd-webui-color-enhance",
@@ -1886,7 +1873,7 @@
                 "tab",
                 "online"
             ],
-            "stars": 16
+            "stars": 30
         },
         {
             "name": "sd-webui-prompt_history",
@@ -1897,7 +1884,273 @@
                 "UI related",
                 "tab"
             ],
-            "stars": 13
+            "stars": 34
+        },
+        {
+            "name": "Danbooru Prompt",
+            "url": "https://github.com/EnsignMK/danbooru-prompt.git",
+            "description": "Fetch tags from Danbooru images link",
+            "tags": [
+                "online"
+            ],
+            "added": "2023-06-25",
+            "stars": 3
+        },
+        {
+            "name": "Pixel art",
+            "url": "https://github.com/mrreplicart/sd-webui-pixelart.git",
+            "description": "Extension that provides basic functionality for pixel art: downscaling, palette limiting, grayscale, black&white, ability to change image colors with custom color palette",
+            "tags": [
+                "script",
+                "editing",
+                "extras"
+            ],
+            "added": "2023-06-28",
+            "stars": 29
+        },
+        {
+            "name": "Lobe Theme",
+            "url": "https://github.com/canisminor1990/sd-webui-lobe-theme.git",
+            "description": "The modern theme for stable diffusion webui, legacy verison a.k.a kitchen theme.",
+            "added": "2023-06-28",
+            "tags": [
+                "UI related",
+                "online"
+            ],
+            "stars": 1020
+        },
+        {
+            "name": "Kitchen Theme",
+            "url": "https://github.com/canisminor1990/sd-webui-kitchen-theme-legacy.git",
+            "description": "Custom Theme.",
+            "added": "2023-02-28",
+            "tags": [
+                "UI related",
+                "online"
+            ],
+            "stars": 11
+        },
+        {
+            "name": "IF_prompt_MKR",
+            "url": "https://github.com/if-ai/IF_prompt_MKR.git",
+            "description": "Creates prompts using a local LlMs via Oobabooga text webUI API",
+            "tags": [
+                "script",
+                "prompting"
+            ],
+            "added": "2023-06-30",
+            "stars": 14
+        },
+        {
+            "name": "3D Editor",
+            "url": "https://github.com/jtydhr88/sd-webui-3d-editor.git",
+            "description": "3D modeling features (add/edit basic elements, load your custom model, modify scene and so on), then send screenshot to txt2img or img2img as your ControlNet's reference image, basing on ThreeJS editor.",
+            "tags": [
+                "tab"
+            ],
+            "added": "2023-06-30",
+            "stars": 84
+        },
+        {
+            "name": "Aspect Ratio selector plus",
+            "url": "https://github.com/LEv145/--sd-webui-ar-plus",
+            "description": "Fork of Aspect Ratio selector with new features and logic for aspect ratio",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2023-06-30",
+            "stars": 12
+        },
+        {
+            "name": "SD Delete Button",
+            "url": "https://github.com/AlUlkesh/sd_delete_button.git",
+            "description": "Add a delete button for txt2img and img2img using Send2Trash",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2023-06-30",
+            "stars": 21
+        },
+        {
+            "name": "sd-webui-qrcode-toolkit",
+            "url": "https://github.com/antfu/sd-webui-qrcode-toolkit.git",
+            "description": "Integration with Anthony's QR Toolkit for easy QR Code generation and verification.",
+            "added": "2023-07-02",
+            "tags": [
+                "tab",
+                "editing",
+                "online"
+            ],
+            "stars": 379
+        },
+        {
+            "name": "SadTalker",
+            "url": "https://github.com/OpenTalker/SadTalker.git",
+            "description": "Generating talking head videos with facial image and speech audio",
+            "tags": [
+                "tab",
+                "animation"
+            ],
+            "added": "2023-07-07",
+            "stars": 5530
+        },
+        {
+            "name": "Auto-Photoshop-StableDiffusion-Plugin",
+            "url": "https://github.com/AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin.git",
+            "description": "Adds API routes for Auto-Photoshop-StableDiffusion-Plugin",
+            "tags": [
+                "script"
+            ],
+            "added": "2023-07-07",
+            "stars": 4833
+        },
+        {
+            "name": "Civitai Shortcut",
+            "url": "https://github.com/sunnyark/civitai-shortcut.git",
+            "description": "This extension allows you to register the models available on civitai as favorites (shortcuts) in sdui, and then you can download the models using the registered shortcuts when needed.",
+            "tags": [
+                "models",
+                "extras"
+            ],
+            "added": "2023-07-08",
+            "stars": 77
+        },
+        {
+            "name": "WD 1.4 Tagger",
+            "url": "https://github.com/picobyte/stable-diffusion-webui-wd14-tagger.git",
+            "description": "Interrogates single or multiple image files using various alternative models, similar to deepdanbooru interrogate.",
+            "added": "2022-11-20",
+            "tags": [
+                "tab",
+                "training"
+            ],
+            "stars": 22
+        },
+        {
+            "name": "Loopback Scaler",
+            "url": "https://github.com/Elldreth/loopback_scaler.git",
+            "description": "Iteratively improves image quality and detail via user-controlled, gradual resolution increments.",
+            "tags": [
+                "script",
+                "manipulations"
+            ],
+            "added": "2023-07-11",
+            "stars": 136
+        },
+        {
+            "name": "Mask2Background",
+            "url": "https://github.com/limithit/Mask2Background.git",
+            "description": "Take a png image, generate a background and mask, then send it to img2img to generate a new backgrou",
+            "tags": [
+                "tab"
+            ],
+            "added": "2023-07-11",
+            "stars": 10
+        },
+        {
+            "name": "ComfyUI",
+            "url": "https://github.com/ModelSurge/sd-webui-comfyui.git",
+            "description": "Embed ComfyUI workflows in different sections of the Webui",
+            "tags": [
+                "script",
+                "tab",
+                "UI related",
+                "manipulations"
+            ],
+            "added": "2023-07-14",
+            "stars": 152
+        },
+        {
+            "name": "GPU temperature protection",
+            "url": "https://github.com/w-e-w/stable-diffusion-webui-GPU-temperature-protection.git",
+            "description": "Pause image generation when GPU is to hot",
+            "tags": [
+                "script"
+            ],
+            "added": "2023-07-14",
+            "stars": 3
+        },
+        {
+            "name": "zoom-image",
+            "url": "https://github.com/viyiviyi/stable-diffusion-webui-zoomimage.git",
+            "description": "Pan and Zoom for fullscreen image viewer with mouse and gesture.",
+            "tags": [
+                "script"
+            ],
+            "added": "2023-07-15",
+            "stars": 8
+        },
+        {
+            "name": "Shutdown button",
+            "url": "https://github.com/EnsignMK/sd_shutdown_button.git",
+            "description": "Adds a button in quick settings for killing webui",
+            "tags": [
+                "script",
+                "UI related"
+            ],
+            "added": "2023-07-15",
+            "stars": 4
+        },
+        {
+            "name": "Latent Upscale",
+            "url": "https://github.com/feynlee/latent-upscale.git",
+            "description": "Provides more options for latent upscale in img2img, surpassing those offered by Hires Fix for the txt2img process.",
+            "tags": [
+                "script"
+            ],
+            "added": "2023-07-15",
+            "stars": 29
+        },
+        {
+            "name": "sd-history-slider",
+            "url": "https://github.com/LucasMali/sd-history-slider",
+            "description": "A slider change the prompt based on the history of what was used.",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2023-07-18",
+            "stars": 8
+        },
+        {
+            "name": "prompts filter",
+            "url": "https://github.com/viyiviyi/prompts-filter.git",
+            "description": "Filter out banned words in prompts and negative_prompts, and also filter out duplicate prompts and empty prompts.",
+            "tags": [
+                "script"
+            ],
+            "added": "2023-07-20",
+            "stars": 3
+        },
+        {
+            "name": "sd-webui-animatediff",
+            "url": "https://github.com/continue-revolution/sd-webui-animatediff.git",
+            "description": "This extension integrates AnimateDiff into WebUI and generates GIF just like generating images",
+            "added": "2023-07-20",
+            "tags": [
+                "script",
+                "dropdown"
+            ],
+            "stars": 193
+        },
+        {
+            "name": "Dynamic Javascript",
+            "url": "https://github.com/pmcculler/sd-dynamic-javascript",
+            "description": "Embed Javascript code blocks in positive and negative prompts.",
+            "tags": [
+                "prompting"
+            ],
+            "added": "2023-07-22",
+            "stars": 3
+        },
+        {
+            "name": "Detection Detailer",
+            "url": "https://github.com/Bing-su/dddetailer.git",
+            "description": "Dotgeo(hijack) Detection Detailer. Fork of ddetailer. Object detection and auto-mask extension for Stable Diffusion web UI.",
+            "added": "2022-11-09",
+            "tags": [
+                "editing"
+            ],
+            "stars": 107
         }
     ]
 }
